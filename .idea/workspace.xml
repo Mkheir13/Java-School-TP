@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bb980522-8e71-4f34-a4ac-09cf36e76b19" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Java-TP1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-TP1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-TP1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-TP1/Java-TP.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-TP1/out/production/Java-TP/Exo1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-TP1/out/production/Java-TP/Exo2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-TP1/out/production/Java-TP/Menu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-TP1/out/production/Java-TP/Utils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-TP1/src/Exo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-TP1/src/Exo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-TP1/src/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-TP1/src/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2EhfCUunxY9FqZWvye582gkE5QM" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/kheir/IdeaProjects",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Menu" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="BUNDLED" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Menu" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="JavaB2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="JavaB2" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bb980522-8e71-4f34-a4ac-09cf36e76b19" name="Changes" comment="" />
+      <created>1663052610897</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663052610897</updated>
+      <workItem from="1663052612485" duration="3388000" />
+      <workItem from="1663063680015" duration="601000" />
+      <workItem from="1663252292755" duration="79000" />
+      <workItem from="1663258344300" duration="184000" />
+      <workItem from="1663258540256" duration="24000" />
+      <workItem from="1663258573073" duration="336000" />
+      <workItem from="1663258924946" duration="124000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
