@@ -2,7 +2,6 @@
 
 public class Exo3 {
     public static void main(String args[]) {
-        System.out.println("Nombre binaire"); // Exercice qui calcule la moyenne
         System.out.println("Voulez-vous convertir: ");
         System.out.println("  1- un nombre décimal en binaire");
         System.out.println("  2- un nombre binaire en décimal");

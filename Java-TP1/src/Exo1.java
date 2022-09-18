@@ -5,7 +5,6 @@ import java.lang.*;
 
 public class Exo1 {                                                     // Exercice qui calcule la racine carré
     public static void main(String[] args) {
-        System.out.println("Racine d'un nombre");
         System.out.print("Entrez une valeur positive (0 pour quitter): ");
         int digits = Utils.CheckInt();                          // je stock mon input
         if (digits == 0) {                                              // Je vérifie qu'il n'est pas égale a 0

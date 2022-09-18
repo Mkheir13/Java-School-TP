@@ -1,7 +1,7 @@
 // réaliser par MEDERREG KHEIR-EDDINE
 public class Exo2 {
     public static void main(String[] args) {
-        System.out.println("Arbre de noel");// Exercice qui permet de dessiner un arbre de noel
+                                                        // Exercice qui permet de dessiner un arbre de noel
         System.out.print("Hauteur de l'arbre: ");
         int height = Utils.CheckInt();                  // je stock mon input
         if (height == 0) {                              // Je vérifie qu'il n'est pas égale a 0 si oui

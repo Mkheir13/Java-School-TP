@@ -2,7 +2,6 @@
 
 import java.util.Scanner;
 
-
 public class Utils {
     public static String checkString() {            // Cette fonction me sert pour récuperer l'input de l'utilisateur
         Scanner string = new Scanner(System.in);    // je Crée la variable qui va acceuillir cet input
