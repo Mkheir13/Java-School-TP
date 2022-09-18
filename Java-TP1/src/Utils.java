@@ -12,16 +12,24 @@ public class Utils {
 
     public static int CheckInt() {          // Fonction qui permet de savoir si l'input est un entier ou non
         Scanner digit = new Scanner(System.in);
-        while (!digit.hasNextInt()) {               // boucle qui me permet de déterminé si je recois un entier ou non
+        while (!digit.hasNextInt() || !digit.hasNextFloat()) {               // boucle qui me permet de déterminé si je recois un entier ou non
             System.out.println("Veuillez entrer un entier positif");
             digit.next();                           // Cela me permet de passer a l'input suivant
         }
         int result = digit.nextInt();
-        //check if input is positive or not and return the result
         if (result < 0) {                           // Je check si l'input est positif ou non
             System.out.println("Erreur, la valeur ne peut pas être négative");
             return CheckInt();                      // Si non je relance la fonction
         }
+        return result;                              // Si oui je renvoie l'input
+    }
+    public static Double CheckDouble() {          // Fonction qui permet de savoir si l'input est un entier ou non
+        Scanner digit = new Scanner(System.in);
+        while (!digit.hasNextDouble()) {               // boucle qui me permet de déterminé si je recois un entier ou non
+            System.out.println("Veuillez entrer un nombre positif");
+            digit.next();                           // Cela me permet de passer a l'input suivant
+        }
+        Double result = digit.nextDouble();
         return result;                              // Si oui je renvoie l'input
     }
     public static int Restart() {               // Fonction qui permet de savoir si l'utilisateur veut continuer ou non
