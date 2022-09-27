@@ -5,7 +5,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Objects;
 
-public class Menu {                                     // Menu en Java
+public class Menu {
     public static void main(String[] args) {
         System.out.println("Menu");
         File folder = new File(Objects.requireNonNull(Menu.class.getClassLoader().getResource("")).getPath());
@@ -19,9 +19,10 @@ public class Menu {                                     // Menu en Java
             System.out.println("  " + i + "- Exercice " + i);
         }
         System.out.println("0- Quitter");
-        String exo = Utils.checkString();                   // Enfin je récupere l'input pour l'utiliser dans mon switch
+        String exo = Utils.checkString();
 
         switch (exo) {
+            /*
             case "1" -> Exo1.main(args);
             case "2" -> Exo2.main(args);
             case "3" -> Exo3.main(args);
@@ -31,6 +32,7 @@ public class Menu {                                     // Menu en Java
             case "0" -> {
                 Utils.Close();
             }
+             */
             default -> {
                 System.out.println("Choix invalide");
                 main(args);

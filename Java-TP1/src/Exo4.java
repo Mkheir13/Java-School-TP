@@ -15,7 +15,7 @@ public class Exo4 {
         for (float U1 = 1; U1 <= input; U1++) {          // Je fais une boucle qui va calculer la somme
             Un = Un + 1 / U1;
         }
-        System.out.println("U2 est = " + Math.round(Un * 10000.0) / 10000.0); // Je l'imprime
+        System.out.println("U"+ input + " est = " + Math.round(Un * 10000.0) / 10000.0); // Je l'imprime
         main(args);
     }
 }
