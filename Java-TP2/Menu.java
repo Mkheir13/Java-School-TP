@@ -1,4 +1,4 @@
-// réaliser par MEDERREG KHEIR-EDDINE
+// réaliser par MEDERREG KHEIR-EDDINE et BENJAMIN BORELLO
 
 import java.io.File;
 import java.nio.file.Path;
@@ -22,17 +22,13 @@ public class Menu {
         String exo = Utils.checkString();
 
         switch (exo) {
-            /*
             case "1" -> Exo1.main(args);
             case "2" -> Exo2.main(args);
             case "3" -> Exo3.main(args);
             case "4" -> Exo4.main(args);
-            case "5" -> Exo5.main(args);
-            case "6" -> Exo6.main(args);
             case "0" -> {
                 Utils.Close();
             }
-             */
             default -> {
                 System.out.println("Choix invalide");
                 main(args);

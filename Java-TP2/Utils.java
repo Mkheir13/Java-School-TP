@@ -1,4 +1,4 @@
-// réaliser par MEDERREG KHEIR-EDDINE
+// réaliser par MEDERREG KHEIR-EDDINE et BENJAMIN BORELLO
 
 import java.util.Scanner;
 
@@ -79,5 +79,32 @@ public class Utils {
         System.out.print("Entrez un nombre decimal : ");
         int decimal = Utils.CheckInt();
         System.out.println("Le nombre binaire est: " + Integer.toBinaryString(decimal));
+    }
+
+    public static long CheckLong() {
+        Scanner digit = new Scanner(System.in);
+        while (!digit.hasNextLong()) {               // boucle qui me permet de déterminé si je recois un entier ou non
+            System.out.println("Veuillez entrer un entier positif");
+            digit.next();                           // Cela me permet de passer a l'input suivant
+        }
+        long result = digit.nextLong();
+        if (result < 0) {                           // Je check si l'input est positif ou non
+            System.out.println("Erreur, la valeur ne peut pas être négative");
+            return CheckLong();                      // Si non je relance la fonction
+        } else if (result > 9223372036854775807L) {
+            System.out.println("Erreur, la valeur est trop grande");
+            return CheckLong();
+        }
+        return result;                              // Si oui je renvoie l'input
+    }
+
+    public static boolean CheckBoolean() {
+        Scanner digit = new Scanner(System.in);
+        if (!digit.hasNextBoolean()) {               // boucle qui me permet de déterminé si je recois un entier ou non
+            System.out.println("Veuillez entrer un entier positif");
+            digit.next();                           // Cela me permet de passer a l'input suivant
+        }
+        boolean result = digit.nextBoolean();
+        return result;                              // Si oui je renvoie l'input
     }
 }
