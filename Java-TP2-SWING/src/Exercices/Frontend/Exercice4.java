@@ -9,6 +9,10 @@ public class Exercice4 {
     private static JLabel stateLabel = new JLabel();
     private static int n = 0;
     public static JPanel getPanel() {
+        mainPanel = new JPanel();   
+        stateLabel = new JLabel();
+        playerName = "Player";
+
         JLabel title = new JLabel("Exercice 4 : Jeu de Nim\n");
         title.setFont(new Font(title.getFont().getName(), title.getFont().getStyle(), 32));
 
@@ -23,6 +27,7 @@ public class Exercice4 {
         panel.remove(panel.getComponents().length - 1);
         panel.add(gamePanel());
         panel.revalidate();
+        panel.repaint();
     }
 
 
