@@ -1,9 +1,15 @@
+// réaliser par MEDERREG KHEIR-EDDINE et BENJAMIN BORELLO
+// JAVA SDK 19
+
 import Exercices.Frontend.*;
 
+import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.image.BufferedImage;
+import java.io.File;
 
 public class Main {
     private interface Exercice {
@@ -120,6 +126,14 @@ public class Main {
         JLabel authors = new JLabel("Kheir-Edinne Mederreg & Benjamin Borello");
         authors.setFont(new Font(authors.getFont().getName(), authors.getFont().getStyle(), 24));
         mainPanel.add(authors);
+
+        try {
+            BufferedImage image = ImageIO.read(new File("duck.jpg"));
+            JLabel logo = new JLabel(new ImageIcon(image));
+            mainPanel.add(logo);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 
         return mainPanel;
     }

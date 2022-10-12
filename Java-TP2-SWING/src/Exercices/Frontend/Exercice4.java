@@ -1,4 +1,4 @@
-package Exercices.Frontend;
+package Exercices.Frontend;//réaliser par MEDERREG KHEIR-EDDINE et BENJAMIN BORELLO
 
 import javax.swing.*;
 import java.awt.*;
@@ -110,7 +110,12 @@ public class Exercice4 {
 
         if (player) {
             stateLabel.setText(playerName + " enlève " + nb + ", reste " + n);
-            play(panel, false, 1);
+            int allumettes = (int) (Math.random() * 3) + 1;
+            if (allumettes > n) {
+                allumettes = n;
+            }
+            play(panel, false, allumettes);
+
         } else {
             stateLabel.setText("L'ordinateur enlève " + nb + ", reste " + n);
         }
