@@ -13,6 +13,7 @@ public class Exercice3 {
         JLabel title = new JLabel("Exercice 3 : Chance Euromillions");
         title.setFont(new Font(title.getFont().getName(), title.getFont().getStyle(), 32));
         panel.add(title);
+        panel.add(new JLabel("Cnp(50,5) * Cnp(11.,2) = " + (Exo3.Cnp(50, 5).multiply(Exo3.Cnp(11, 2))) + " soit 1 chance sur " + Exo3.Cnp(50, 5).multiply(Exo3.Cnp(11, 2))));
         panel.add(mainPanel());
 
         return panel;

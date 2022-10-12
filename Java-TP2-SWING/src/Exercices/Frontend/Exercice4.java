@@ -9,7 +9,7 @@ public class Exercice4 {
     private static JLabel stateLabel = new JLabel();
     private static int n = 0;
     public static JPanel getPanel() {
-        mainPanel = new JPanel();   
+        mainPanel = new JPanel();
         stateLabel = new JLabel();
         playerName = "Player";
 
