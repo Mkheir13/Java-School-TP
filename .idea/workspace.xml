@@ -2,19 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb980522-8e71-4f34-a4ac-09cf36e76b19" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Java-TP1/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-TP1/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-TP1/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-TP1/Java-TP.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-TP1/out/production/Java-TP/Exo1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-TP1/out/production/Java-TP/Exo2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-TP1/out/production/Java-TP/Menu.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-TP1/out/production/Java-TP/Utils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-TP1/src/Exo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-TP1/src/Exo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-TP1/src/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-TP1/src/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-TP3/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-TP3/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-TP3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-TP3/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-TP3/Java-TP3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-TP3/out/production/Java-TP3/Exo1$Classe.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-TP3/out/production/Java-TP3/Exo1$Etudiant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-TP3/out/production/Java-TP3/Exo1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-TP3/out/production/Java-TP3/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-TP3/src/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-TP2-SWING/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java-TP2-SWING/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-TP2-SWING/out/production/swing01/Exercices/Frontend/Exercice1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java-TP2-SWING/out/production/swing01/Exercices/Frontend/Exercice1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-TP2-SWING/out/production/swing01/Exercices/Frontend/Exercice2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java-TP2-SWING/out/production/swing01/Exercices/Frontend/Exercice2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-TP2-SWING/out/production/swing01/Exercices/Frontend/Exercice3.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java-TP2-SWING/out/production/swing01/Exercices/Frontend/Exercice3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-TP2-SWING/out/production/swing01/Exercices/Frontend/Exercice4.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java-TP2-SWING/out/production/swing01/Exercices/Frontend/Exercice4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-TP2-SWING/out/production/swing01/Main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java-TP2-SWING/out/production/swing01/Main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-TP2-SWING/out/production/swing01/Main$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java-TP2-SWING/out/production/swing01/Main$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-TP2-SWING/out/production/swing01/Main$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java-TP2-SWING/out/production/swing01/Main$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-TP2-SWING/out/production/swing01/Main$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java-TP2-SWING/out/production/swing01/Main$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-TP2-SWING/out/production/swing01/Main$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java-TP2-SWING/out/production/swing01/Main$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-TP2-SWING/out/production/swing01/Main$Exercice.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java-TP2-SWING/out/production/swing01/Main$Exercice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-TP2-SWING/out/production/swing01/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java-TP2-SWING/out/production/swing01/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MEDERREG_KHEIR-EDDINE_TP1B2.zip" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,24 +56,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/kheir/IdeaProjects",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/kheir/IdeaProjects/Java-School-TP&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Menu" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="BUNDLED" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="Menu" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed (1)" type="Application" factoryName="Application" activateToolWindowBeforeRun="false" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="$PROJECT_DIR$/Java-TP2-SWING" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Java-TP2-SWING" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/openjdk-18.0.2.1" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -80,6 +106,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Menu" />
+      <item itemvalue="Application.Unnamed" />
+      <item itemvalue="Application.Unnamed (1)" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -96,6 +127,11 @@
       <workItem from="1663258540256" duration="24000" />
       <workItem from="1663258573073" duration="336000" />
       <workItem from="1663258924946" duration="124000" />
+      <workItem from="1665585671766" duration="335000" />
+      <workItem from="1665586033701" duration="508000" />
+      <workItem from="1668264640029" duration="1631000" />
+      <workItem from="1668267111933" duration="50000" />
+      <workItem from="1668267173964" duration="1820000" />
     </task>
     <servers />
   </component>
