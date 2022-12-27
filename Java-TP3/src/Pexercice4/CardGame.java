@@ -14,7 +14,7 @@ import java.util.Random;
 public class CardGame extends JFrame {
     private static final long serialVersionUID = 1L;
 
-    private static final String SPRITE_SHEET_FILENAME = "C:\\Users\\kheir\\IdeaProjects\\Java-School-TP\\Java-TP3\\src\\Pexercice4\\cards.png";
+    private static final String SPRITE_SHEET_FILENAME = "src/Pexercice4/cards.png";
     private static final int CARD_WIDTH = 799 / 13;
     private static final int CARD_HEIGHT = 324/4;
     private static final int MAX_CARDS_PER_LINE = 20;
@@ -64,11 +64,9 @@ public class CardGame extends JFrame {
         int index;
         do {
             index = random.nextInt(52);
-            System.out.println(index);
         } while (cards.contains(index));
         cards.add(index);
         cards.sort(Integer::compareTo);
-        System.out.println(cards);
         int x = index % 13 * CARD_WIDTH;
         int y = index / 13 * CARD_HEIGHT;
         return spriteSheet.getSubimage(x, y, CARD_WIDTH, CARD_HEIGHT);
