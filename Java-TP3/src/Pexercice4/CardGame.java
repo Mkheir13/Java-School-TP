@@ -28,7 +28,7 @@ public class CardGame extends JFrame {
     public CardGame() {
         setTitle("Card Game");
         setSize(Toolkit.getDefaultToolkit().getScreenSize());
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 
         try {
             spriteSheet = ImageIO.read(new File(SPRITE_SHEET_FILENAME));

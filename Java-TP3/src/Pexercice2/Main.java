@@ -1,10 +1,6 @@
 package Pexercice2;
 
-import Pexercice1.PClasse.Classe;
-import Pexercice1.PEtudiant.Etudiant;
-
 import javax.swing.*;
-import java.awt.*;
 
 public class Main {
     public static void main(String[] args) {
