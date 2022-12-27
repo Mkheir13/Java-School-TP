@@ -24,7 +24,7 @@ public class Main {
 
         MonBouton bouton = new MonBouton("OK");
         bouton.addActionListener(e -> {
-            MaFenetre fenetreBtn = new MaFenetre("Message", 300, 150 , new JPanel());
+            MaFenetre fenetreBtn = new MaFenetre("Message", 200, 150 , new JPanel());
             fenetreBtn.add(new JLabel(" Vous avez appuyé sur : OK"));
             fenetreBtn.add(new JLabel(" Nom : " + Nom.getText()));
             fenetreBtn.add(new JLabel(" pwd : " + Mdp.getText()));
@@ -37,7 +37,7 @@ public class Main {
 
         MonBouton bouton2 = new MonBouton("Cancel");
         bouton2.addActionListener(e -> {
-            MaFenetre fenetreBtn = new MaFenetre("Message", 300, 150 , new JPanel());
+            MaFenetre fenetreBtn = new MaFenetre("Message", 200, 150 , new JPanel());
             fenetreBtn.add(new JLabel(" Vous avez appuyé sur : Cancel"));
             fenetreBtn.add(new JLabel(" Nom : " + Nom.getText()));
             fenetreBtn.add(new JLabel(" pwd : " + Mdp.getText()));

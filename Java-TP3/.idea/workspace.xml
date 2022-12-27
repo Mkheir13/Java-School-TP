@@ -3,8 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="0dc07d10-3fb8-41a4-9084-afb564734543" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/Pexercice4/Card.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/Pexercice2/MaFenetre.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-TP3/Pexercice2/MaFenetre.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/Pexercice3/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-TP3/Pexercice3/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/Pexercice4/CardGame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-TP3/Pexercice4/CardGame$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/Pexercice4/CardGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-TP3/Pexercice4/CardGame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pexercice2/MaFenetre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pexercice2/MaFenetre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pexercice3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pexercice3/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pexercice4/CardGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pexercice4/CardGame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,6 +80,7 @@
       <workItem from="1671998267859" duration="4931000" />
       <workItem from="1672073150624" duration="106000" />
       <workItem from="1672109019762" duration="6612000" />
+      <workItem from="1672161827357" duration="3447000" />
     </task>
     <servers />
   </component>

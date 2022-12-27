@@ -1,5 +1,7 @@
 package Pexercice4;
 
+import Pexercice2.MonBouton;
+
 import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
@@ -34,8 +36,8 @@ public class CardGame extends JFrame {
             e.printStackTrace();
         }
 
-        JButton pickButton = new JButton("Pick a Card");
-        pickButton.addActionListener(new ActionListener() {
+        MonBouton button = new MonBouton("Distribuer");
+        button.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 int numCards = cardPanel.getComponentCount();
@@ -55,7 +57,7 @@ public class CardGame extends JFrame {
         });
 
         cardPanel = new JPanel(new FlowLayout());
-        add(pickButton, BorderLayout.SOUTH);
+        add(button, BorderLayout.SOUTH);
         add(cardPanel, BorderLayout.CENTER);
     }
     ArrayList<Integer> cards = new ArrayList<>();
