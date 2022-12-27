@@ -1,13 +1,10 @@
 import Pexercice1.PClasse.Classe;
 import Pexercice1.PEtudiant.Etudiant;
-import Pexercice2.MonBouton;
-
-import javax.swing.*;
 
 public class TP_Classe {
 
     public static void main(String[] args) {
-        Classe classe = new Classe("1A");
+        Classe classe = new Classe("B2");
 
         Etudiant etudiant1 = new Etudiant("Mederreg", "Kheir", "2022");
         etudiant1.setNote("Mathématiques", "Trimestre 1", 8.5);
@@ -40,7 +37,6 @@ public class TP_Classe {
 
         classe.sauvegarderEtudiants("etudiants.txt");
         classe.chargerEtudiants("etudiants.txt");
-
     }
 
 }

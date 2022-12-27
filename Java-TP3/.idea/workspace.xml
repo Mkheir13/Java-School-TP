@@ -2,20 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0dc07d10-3fb8-41a4-9084-afb564734543" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Pexercice3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pexercice3/PasswordField.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pexercice3/TextField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pexercice4/Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pexercice4/CardGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/Pexercice2/MaFenetre.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-TP3/Pexercice2/MaFenetre.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/Pexercice2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-TP3/Pexercice2/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/Pexercice2/MonBouton.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-TP3/Pexercice2/MonBouton.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pexercice2/MaFenetre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pexercice2/MaFenetre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pexercice2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pexercice2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/Pexercice3/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-TP3/Pexercice3/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/TP_Classe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-TP3/TP_Classe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pexercice3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pexercice3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TP_Classe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TP_Classe.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -75,7 +76,9 @@
       <workItem from="1671651431853" duration="5355000" />
       <workItem from="1671758742219" duration="2263000" />
       <workItem from="1671914314565" duration="11645000" />
-      <workItem from="1671998267859" duration="4281000" />
+      <workItem from="1671998267859" duration="4931000" />
+      <workItem from="1672073150624" duration="106000" />
+      <workItem from="1672109019762" duration="6203000" />
     </task>
     <servers />
   </component>
