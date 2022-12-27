@@ -4,15 +4,16 @@ import Pexercice2.MaFenetre;
 import Pexercice2.MonBouton;
 
 import javax.swing.*;
-
 import java.awt.*;
 
 import static java.awt.Component.CENTER_ALIGNMENT;
 
 public class Main {
+
     public static void main(String[] args) {
         MaFenetre fenetre = new MaFenetre("Box Layout", 400, 150 , new JPanel());
         fenetre.getContentPane().setLayout(new BoxLayout(fenetre.getContentPane(), BoxLayout.Y_AXIS));
+
 
         JPanel textFields = new JPanel();
         JLabel label = new JLabel("Nom");
