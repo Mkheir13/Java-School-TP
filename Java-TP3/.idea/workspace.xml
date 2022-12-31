@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0dc07d10-3fb8-41a4-9084-afb564734543" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Pexercice5/CarteSwing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pexercice5/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pexercice5/MonsterCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pexercice5/SpellCard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/Pexercice5/CarteSwing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/Pexercice5/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-TP3/Pexercice5/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/Pexercice5/MonsterCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-TP3/Pexercice5/MonsterCard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pexercice4/CardGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pexercice4/CardGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pexercice5/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pexercice5/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pexercice5/MonsterCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pexercice5/MonsterCard.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +23,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -117,7 +123,8 @@
       <workItem from="1672161827357" duration="18259000" />
       <workItem from="1672292060274" duration="9623000" />
       <workItem from="1672401520540" duration="6799000" />
-      <workItem from="1672415613870" duration="569000" />
+      <workItem from="1672415613870" duration="1646000" />
+      <workItem from="1672497137555" duration="10407000" />
     </task>
     <servers />
   </component>

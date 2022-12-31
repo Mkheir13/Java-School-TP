@@ -14,8 +14,6 @@ import java.util.ArrayList;
 import java.util.Random;
 
 public class CardGame extends JFrame {
-    private static final long serialVersionUID = 1L;
-
     private static final String SPRITE_SHEET_FILENAME = "src/Pexercice4/cards.png";
     private static final int CARD_WIDTH = 799 / 13;
     private static final int CARD_HEIGHT = 324/4;
@@ -27,7 +25,7 @@ public class CardGame extends JFrame {
 
     public CardGame() {
         setTitle("Card Game");
-        setSize(Toolkit.getDefaultToolkit().getScreenSize());
+        setSize(800, 500);
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 
         try {

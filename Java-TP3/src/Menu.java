@@ -15,7 +15,7 @@ public class Menu {
         }
     }
     public static void main(String[] args) {
-        MaFenetre fenetre = new MaFenetre("Menu", 500, 500, new JPanel());
+        MaFenetre fenetre = new MaFenetre("Menu", 500, 200, new JPanel());
         MonBouton boutonExo1 = new MonBouton("Classe Étudiant");
         MonBouton boutonExo2 = new MonBouton("Bouton");
         MonBouton boutonExo3 = new MonBouton("BoxLayout");
