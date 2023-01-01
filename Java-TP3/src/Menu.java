@@ -57,16 +57,6 @@ public class Menu {
         panel.add(Box.createRigidArea(new Dimension(0, 25)));
         panel2.setLayout(new GridLayout(2, 2));
         MonLabel label = new Menu().new MonLabel(" TP JAVA 3");
-        label.setFont(new Font("Arial", Font.BOLD, 20));
-        MonLabel label2 = new Menu().new MonLabel("        Exercice 1 : Classe Étudiant -> Regardez la console");
-        MonLabel label3 = new Menu().new MonLabel("        Exercice 2 : Bouton");
-        MonLabel label4 = new Menu().new MonLabel("        Exercice 3 : BoxLayout");
-        MonLabel label5 = new Menu().new MonLabel("        Exercice 4 : Cartes");
-        panel.add(label);
-        panel.add(label2);
-        panel.add(label3);
-        panel.add(label4);
-        panel.add(label5);
         panel2.add(panel);
         fenetre.add(panel);
 

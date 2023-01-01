@@ -6,11 +6,13 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
-
+/**
+ * Created by Kheir-eddine on 20/12/2022.
+ **/
 
 public class Classe {
     private String nom;
-    private List<Etudiant> etudiants;  // liste des étudiants de la classe
+    private List<Etudiant> etudiants;
 
     public Classe(String nom) {
         this.nom = nom;
@@ -42,7 +44,7 @@ public class Classe {
         int nbEtudiants = 0;
         for (Etudiant etudiant : etudiants) {
             double moyenneEtudiant = etudiant.moyenne(matiere);
-            if (moyenneEtudiant > 0) {  // l'étudiant a des notes enregistrées pour cette matière
+            if (moyenneEtudiant > 0) {
                 somme += moyenneEtudiant;
                 nbEtudiants++;
             }
@@ -65,7 +67,7 @@ public class Classe {
     }
 
     public void chargerEtudiants(String nomFichier) {
-        etudiants.clear();  // on vide la liste des étudiants avant de charger le fichier
+        etudiants.clear();
         try (BufferedReader reader = new BufferedReader(new FileReader(nomFichier))) {
             String ligne;
             while ((ligne = reader.readLine()) != null) {

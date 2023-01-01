@@ -3,20 +3,23 @@ package Pexercice1.PEtudiant;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Etudiant {                                                            //je déclare ma classe Etudiant
+/**
+ * Created by Kheir-eddine on 20/12/2022.
+ **/
+public class Etudiant {
     private String nom;
     private String prenom;
     private String promotion;
     private Map<String, Map<String, Double>> notes;
 
-    public Etudiant(String nom, String prenom, String promotion) {            //je crée mon constructeur
+    public Etudiant(String nom, String prenom, String promotion) {
         this.nom = nom;
         this.prenom = prenom;
         this.promotion = promotion;
         this.notes = new HashMap<>();
     }
 
-    public void afficherNote() {                                            //je crée ma méthode afficherNote
+    public void afficherNote() {
         for (Map.Entry<String, Map<String, Double>> entry : notes.entrySet()) {
             System.out.println("Matière : " + entry.getKey());
             for (Map.Entry<String, Double> note : entry.getValue().entrySet()) {
@@ -25,7 +28,7 @@ public class Etudiant {                                                         
         }
     }
 
-    public void afficherNote(String matiere) {                              //je crée ma méthode afficherNote avec en paramètre la matière
+    public void afficherNote(String matiere) {
         if (!notes.containsKey(matiere)) {
             System.out.println("L'étudiant n'a pas de note enregistrée pour la matière " + matiere);
             return;
@@ -36,7 +39,7 @@ public class Etudiant {                                                         
         }
     }
 
-    public void setNote(String matiere, String trimestre, double note) {   //je crée ma méthode setNote avec en paramètre la matière, le trimestre et la note
+    public void setNote(String matiere, String trimestre, double note) {
         if (!notes.containsKey(matiere)) {
             notes.put(matiere, new HashMap<>());
         }
@@ -51,7 +54,8 @@ public class Etudiant {                                                         
 
     public double moyenne(String matiere) {
         if (!notes.containsKey(matiere)) {
-            System.out.println("L'étudiant n'a pas de note enregistrée pour la matière " + matiere);
+            notes.put(matiere, new HashMap<>());
+            notes.get(matiere).put(matiere, 1.0);
             return 0;
         }
         Map<String, Double> notesMatiere = notes.get(matiere);

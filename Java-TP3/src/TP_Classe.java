@@ -20,12 +20,12 @@ public class TP_Classe {
         etudiant2.setNote("Français", "Trimestre 2", 13.0);
         classe.setEtudiant(etudiant2);
 
-        Etudiant etuditant3 = new Etudiant("Laurie", "Jeham", "2024");
-        etuditant3.setNote("Mathématiques", "Trimestre 1", 10.0);
-        etuditant3.setNote("Mathématiques", "Trimestre 2", 11.0);
-        etuditant3.setNote("Français", "Trimestre 1", 12.0);
-        etuditant3.setNote("Français", "Trimestre 2", 13.0);
-        classe.setEtudiant(etuditant3);
+        Etudiant etudiant3 = new Etudiant("Laurie", "Jeham", "2024");
+        etudiant3.setNote("Mathématiques", "Trimestre 1", 10.0);
+        etudiant3.setNote("Mathématiques", "Trimestre 2", 11.0);
+        etudiant3.setNote("Anglais", "Trimestre 1", 2, 20.0);
+        etudiant3.setNote("Anglais", "Trimestre 2", 1, 20.0);
+        classe.setEtudiant(etudiant3);
 
 
         classe.afficher();
@@ -33,7 +33,7 @@ public class TP_Classe {
         System.out.println("Moyenne de la classe en français : " + classe.moyenneClasse("Français"));
         System.out.println("Moyenne de Kheir en mathématiques : " + classe.getEtudiant("2022").moyenne("Mathématiques"));
         System.out.println("Moyenne de Benjamin en français : " + classe.getEtudiant("2023").moyenne("Français"));
-        System.out.println("Moyenne de Laurie en français : " + classe.getEtudiant("2022").moyenne("Français"));
+        System.out.println("Moyenne de Laurie en français : " + classe.getEtudiant("2024").moyenne("Français"));
 
         classe.sauvegarderEtudiants("etudiants.txt");
         classe.chargerEtudiants("etudiants.txt");
