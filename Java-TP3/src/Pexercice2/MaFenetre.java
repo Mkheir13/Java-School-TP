@@ -12,7 +12,6 @@ public class MaFenetre extends JFrame {
         this.setResizable(false);
         this.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         this.setVisible(true);
-
     }
 
 }

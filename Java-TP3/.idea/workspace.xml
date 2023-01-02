@@ -1,21 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0dc07d10-3fb8-41a4-9084-afb564734543" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/MenuExo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="0dc07d10-3fb8-41a4-9084-afb564734543" name="Changes" comment="feat : new menu layout">
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-TP3/Menu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/Pexercice1/PClasse/Classe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-TP3/Pexercice1/PClasse/Classe.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/Pexercice1/PEtudiant/Etudiant.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-TP3/Pexercice1/PEtudiant/Etudiant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/MenuExo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-TP3/MenuExo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/Pexercice2/MaFenetre.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-TP3/Pexercice2/MaFenetre.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/Pexercice2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-TP3/Pexercice2/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/TP_Classe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-TP3/TP_Classe.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pexercice1/PClasse/Classe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pexercice1/PClasse/Classe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pexercice1/PEtudiant/Etudiant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pexercice1/PEtudiant/Etudiant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/com/intellij/uiDesigner/core/AbstractLayout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/com/intellij/uiDesigner/core/DimensionInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/com/intellij/uiDesigner/core/GridConstraints.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/com/intellij/uiDesigner/core/GridLayoutManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/com/intellij/uiDesigner/core/HorizontalInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/com/intellij/uiDesigner/core/LayoutState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/com/intellij/uiDesigner/core/Spacer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/com/intellij/uiDesigner/core/SupportCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/com/intellij/uiDesigner/core/Util.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/com/intellij/uiDesigner/core/VerticalInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MenuExo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MenuExo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pexercice2/MaFenetre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pexercice2/MaFenetre.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pexercice2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pexercice2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pexercice2/MonBouton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pexercice2/MonBouton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TP_Classe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TP_Classe.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +44,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -58,14 +65,17 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW": "false",
     "WebServerToolWindowFactoryState": "false",
-    "idea.background.editor": "C:\\Users\\kheir\\OneDrive\\Desktop\\Ynov\\B2\\PHP\\Snapagram\\client\\templates\\img\\catstare.png,0,plain,middle_right,flipH",
+    "idea.background.editor": "C:\\Users\\kheir\\OneDrive\\Desktop\\Ynov\\B2\\PHP\\Snapagram\\client\\templates\\img\\catstare.png,15,scale,center,flipH",
     "idea.background.frame": "C:\\Users\\kheir\\OneDrive\\Desktop\\Ynov\\B2\\PHP\\Snapagram\\client\\templates\\img\\catstare.png,0,scale,center",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "settings.editor.splitter.proportion": "0.23248054"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="CarteSwing" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/openjdk-19" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -75,6 +85,13 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Java-TP3" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -113,6 +130,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -146,7 +168,8 @@
       <workItem from="1672550384076" duration="237000" />
       <workItem from="1672550640265" duration="855000" />
       <workItem from="1672551515404" duration="317000" />
-      <workItem from="1672600045531" duration="10092000" />
+      <workItem from="1672600045531" duration="18896000" />
+      <workItem from="1672643824051" duration="4330000" />
     </task>
     <servers />
   </component>
@@ -163,6 +186,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat : new menu layout" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat : new menu layout" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
