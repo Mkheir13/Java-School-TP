@@ -1,27 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0dc07d10-3fb8-41a4-9084-afb564734543" name="Changes" comment="feat : new menu layout">
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    <list default="true" id="0dc07d10-3fb8-41a4-9084-afb564734543" name="Changes" comment="fixup! feat : new menu layout">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-TP3/Menu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/Menu$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/Menu$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/Menu$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/Menu$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/Menu$MonLabel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/Menu.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/MenuExo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-TP3/MenuExo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/Pexercice2/MaFenetre.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-TP3/Pexercice2/MaFenetre.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/Pexercice1/PClasse/Classe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-TP3/Pexercice1/PClasse/Classe.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/Pexercice2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-TP3/Pexercice2/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/com/intellij/uiDesigner/core/AbstractLayout.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/com/intellij/uiDesigner/core/DimensionInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/com/intellij/uiDesigner/core/GridConstraints.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/com/intellij/uiDesigner/core/GridLayoutManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/com/intellij/uiDesigner/core/HorizontalInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/com/intellij/uiDesigner/core/LayoutState.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/com/intellij/uiDesigner/core/Spacer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/com/intellij/uiDesigner/core/SupportCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/com/intellij/uiDesigner/core/Util.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/com/intellij/uiDesigner/core/VerticalInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/Pexercice2/MonBouton$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-TP3/Pexercice2/MonBouton$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/Pexercice2/MonBouton.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-TP3/Pexercice2/MonBouton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/Pexercice3/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-TP3/Pexercice3/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/TP_Classe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-TP3/TP_Classe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Menu.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MenuExo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MenuExo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pexercice2/MaFenetre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pexercice2/MaFenetre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pexercice1/PClasse/Classe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pexercice1/PClasse/Classe.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pexercice2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pexercice2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pexercice2/MonBouton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pexercice2/MonBouton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pexercice3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pexercice3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TP_Classe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TP_Classe.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,13 +66,13 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW": "false",
     "WebServerToolWindowFactoryState": "false",
-    "idea.background.editor": "C:\\Users\\kheir\\OneDrive\\Desktop\\Ynov\\B2\\PHP\\Snapagram\\client\\templates\\img\\catstare.png,15,scale,center,flipH",
+    "idea.background.editor": "C:\\Users\\kheir\\OneDrive\\Desktop\\Ynov\\B2\\PHP\\Snapagram\\client\\templates\\img\\catstare.png,0,scale,center,flipH",
     "idea.background.frame": "C:\\Users\\kheir\\OneDrive\\Desktop\\Ynov\\B2\\PHP\\Snapagram\\client\\templates\\img\\catstare.png,0,scale,center",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.keymap",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "settings.editor.splitter.proportion": "0.23248054"
   }
 }]]></component>
@@ -179,11 +180,41 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="494e0c93-6925-4c9d-b102-b24a41f9e51b">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:C:/Users/kheir/IdeaProjects/Java-School-TP/Java-TP3" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State />
           </value>
         </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="494e0c93-6925-4c9d-b102-b24a41f9e51b" value="TOOL_WINDOW" />
       </map>
     </option>
   </component>

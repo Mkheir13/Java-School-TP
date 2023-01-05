@@ -32,9 +32,6 @@ public class MonBouton extends JButton {
             public void mouseExited(java.awt.event.MouseEvent evt) {
                 setForeground(colorOne);
             }
-            public void mousePressed(java.awt.event.MouseEvent evt) {
-                setForeground(colorTwo);
-            }
         });
     }
 }

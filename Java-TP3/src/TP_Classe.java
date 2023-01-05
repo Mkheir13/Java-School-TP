@@ -1,9 +1,13 @@
 import Pexercice1.PClasse.Classe;
 import Pexercice1.PEtudiant.Etudiant;
+import Pexercice2.MaFenetre;
+
+import javax.swing.*;
+import java.awt.*;
 
 public class TP_Classe {
 
-    public static void main(String[] args) {
+    public static void main(MaFenetre args) {
         Classe classe = new Classe("B2");
 
         Etudiant etudiant1 = new Etudiant("Mederreg", "Kheir", "2022");
@@ -28,12 +32,28 @@ public class TP_Classe {
         classe.setEtudiant(etudiant3);
 
 
-        classe.afficher();
-        System.out.println("Moyenne de la classe en mathématiques : " + classe.moyenneClasse("Mathématiques"));
-        System.out.println("Moyenne de la classe en français : " + classe.moyenneClasse("Français"));
-        System.out.println("Moyenne de Kheir en mathématiques : " + classe.getEtudiant("2022").moyenne("Mathématiques"));
-        System.out.println("Moyenne de Benjamin en français : " + classe.getEtudiant("2023").moyenne("Français"));
-        System.out.println("Moyenne de Laurie en français : " + classe.getEtudiant("2024").moyenne("Français"));
+        JPanel labelPanel = new JPanel();
+        labelPanel.setLayout(new BoxLayout(labelPanel, BoxLayout.Y_AXIS));
+        labelPanel.setBackground(Color.DARK_GRAY);
+
+        JLabel label = new JLabel();
+        label.setForeground(Color.WHITE);
+        label.setText("<html><h1><center><u>Classe " + classe.getNom() + "</u></center></h1>" +
+                "<center><p>Moyenne de la classe en mathématiques : " + classe.moyenneClasse("Mathématiques") + "</p>" +
+                "<p>Moyenne de la classe en français : " + classe.moyenneClasse("Français") + "</p>" +
+                "<p>Moyenne de Kheir en mathématiques : " + classe.getEtudiant("2022").moyenne("Mathématiques") + "</p>" +
+                "<p>Moyenne de Benjamin en français : " + classe.getEtudiant("2023").moyenne("Français") + "</p>" +
+                "<p>Moyenne de Laurie en français : " + classe.getEtudiant("2024").moyenne("Français") + "</p></center></html>");
+        label.setHorizontalAlignment(SwingConstants.CENTER);
+        label.setFont(new Font("Arial", Font.PLAIN, 20));
+
+
+        JPanel ContainerDroite = (JPanel) args.getContentPane().getComponent(1);
+        ContainerDroite.setLayout(new GridLayout(1, 1));
+        ContainerDroite.add(labelPanel);
+        labelPanel.setLayout(new BorderLayout());
+        labelPanel.add(label, BorderLayout.CENTER);
+        labelPanel.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
 
         classe.sauvegarderEtudiants("etudiants.txt");
         classe.chargerEtudiants("etudiants.txt");

@@ -81,28 +81,25 @@ public class MenuExo {
         boutonExo1.addActionListener(e -> {
             labelExo.setText("Exercice 1");
             ContainerDroite.removeAll();
-            ContainerDroite.add(ExoContent);
+            TP_Classe.main(Menufenetre);
             ContainerDroite.revalidate();
             ContainerDroite.repaint();
         });
         boutonExo2.addActionListener(e -> {
-            labelExo.setText("Exercice 2");
             ContainerDroite.removeAll();
-            ContainerDroite.add(ExoContent);
+            Pexercice2.Main.main(Menufenetre);
             ContainerDroite.revalidate();
             ContainerDroite.repaint();
         });
         boutonExo3.addActionListener(e -> {
-            labelExo.setText("Exercice 3");
             ContainerDroite.removeAll();
-            ContainerDroite.add(ExoContent);
+            Pexercice3.Main.main(Menufenetre);
             ContainerDroite.revalidate();
             ContainerDroite.repaint();
         });
         boutonExo4.addActionListener(e -> {
-            labelExo.setText("Exercice 4");
             ContainerDroite.removeAll();
-            ContainerDroite.add(ExoContent);
+            //ContainerDroite.add(ExoContent);
             ContainerDroite.revalidate();
             ContainerDroite.repaint();
         });

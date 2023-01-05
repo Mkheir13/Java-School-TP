@@ -11,8 +11,8 @@ import java.util.List;
  **/
 
 public class Classe {
-    private String nom;
-    private List<Etudiant> etudiants;
+    private final String nom;
+    private final List<Etudiant> etudiants;
 
     public Classe(String nom) {
         this.nom = nom;
@@ -78,5 +78,9 @@ public class Classe {
             System.out.println("Erreur lors du chargement des étudiants depuis le fichier " + nomFichier);
             e.printStackTrace();
         }
+    }
+
+    public String getNom() {
+        return nom;
     }
 }

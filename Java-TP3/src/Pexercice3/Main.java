@@ -10,9 +10,8 @@ import static java.awt.Component.CENTER_ALIGNMENT;
 
 public class Main {
 
-    public static void main(String[] args) {
-        MaFenetre fenetre = new MaFenetre("Box Layout", 400, 150 , new JPanel());
-        fenetre.getContentPane().setLayout(new BoxLayout(fenetre.getContentPane(), BoxLayout.Y_AXIS));
+    public static void main(MaFenetre args) {
+        JPanel ContainerBoutons = (JPanel) args.getContentPane().getComponent(1);
 
 
         JPanel textFields = new JPanel();
@@ -21,7 +20,7 @@ public class Main {
         Nom.setPreferredSize(Nom.getSize());
         textFields.add(label);
         textFields.add(Nom);
-        fenetre.add(textFields);
+        ContainerBoutons.add(textFields);
 
         JPanel textFields2 = new JPanel();
         JLabel label2 = new JLabel("Password");
@@ -29,7 +28,7 @@ public class Main {
         Mdp.setPreferredSize(Mdp.getSize());
         textFields2.add(label2);
         textFields2.add(Mdp);
-        fenetre.add(textFields2);
+        ContainerBoutons.add(textFields2);
 
         JPanel Boutons = new JPanel();
         Boutons.setLayout(new BoxLayout(Boutons, BoxLayout.X_AXIS));
@@ -75,7 +74,7 @@ public class Main {
 
         Boutons.add(boutonOk);
         Boutons.add(boutonAnnuler);
-        fenetre.add(Boutons);
-        fenetre.setVisible(true);
+        ContainerBoutons.add(Boutons);
+        ContainerBoutons.setVisible(true);
     }
 }
