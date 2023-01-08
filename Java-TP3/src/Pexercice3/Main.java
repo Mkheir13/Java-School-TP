@@ -9,72 +9,86 @@ import java.awt.*;
 import static java.awt.Component.CENTER_ALIGNMENT;
 
 public class Main {
-
     public static void main(MaFenetre args) {
-        JPanel ContainerBoutons = (JPanel) args.getContentPane().getComponent(1);
+        JPanel ContainerBox = (JPanel) args.getContentPane().getComponent(1);
 
+        JPanel panelContainer = new JPanel();
+        panelContainer.setLayout(new BoxLayout(panelContainer, BoxLayout.Y_AXIS));
+        panelContainer.setBackground(new Color(0, 0, 0, 0));
+
+        JPanel panel = new JPanel();
+        panel.setLayout(new GridLayout(3, 0));
+
+        JLabel TitleLabel = new JLabel("BoxLayout");
+        TitleLabel.setAlignmentY(CENTER_ALIGNMENT);
+        TitleLabel.setFont(new Font("Arial", Font.ITALIC, 60));
+        TitleLabel.setForeground(Color.GRAY);
+        TitleLabel.setAlignmentX(CENTER_ALIGNMENT);
+        TitleLabel.setBorder(BorderFactory.createEmptyBorder(0, 0, 50, 0));
+        panelContainer.add(Box.createRigidArea(new Dimension(0, 35)));
+        panelContainer.add(TitleLabel);
 
         JPanel textFields = new JPanel();
         JLabel label = new JLabel("Nom");
+        label.setForeground(Color.WHITE);
         TextField Nom = new TextField("", 100, 20);
         Nom.setPreferredSize(Nom.getSize());
         textFields.add(label);
         textFields.add(Nom);
-        ContainerBoutons.add(textFields);
+        panel.add(textFields);
+        ContainerBox.add(panel);
 
         JPanel textFields2 = new JPanel();
         JLabel label2 = new JLabel("Password");
+        label2.setForeground(Color.WHITE);
         PasswordField Mdp = new PasswordField("", 100, 20);
         Mdp.setPreferredSize(Mdp.getSize());
         textFields2.add(label2);
         textFields2.add(Mdp);
-        ContainerBoutons.add(textFields2);
+        panel.add(textFields2);
+        ContainerBox.add(panel);
 
         JPanel Boutons = new JPanel();
         Boutons.setLayout(new BoxLayout(Boutons, BoxLayout.X_AXIS));
 
         JPanel boutonOk = new JPanel();
         MonBouton bouton = new MonBouton("OK");
+        bouton.setBackground(Color.GRAY);
+        bouton.MouseaddHoverEffect(Color.DARK_GRAY, Color.WHITE);
+        bouton.setPreferredSize(new Dimension(100, 50));
+        bouton.setFont(new Font("Arial", Font.PLAIN, 20));
         boutonOk.setLayout(new FlowLayout(FlowLayout.LEFT));
         bouton.addActionListener(e -> {
-            MaFenetre fenetreBtn = new MaFenetre("Message", 250, 150 , new JPanel());
-            fenetreBtn.getContentPane().setLayout(new BoxLayout(fenetreBtn.getContentPane(), BoxLayout.Y_AXIS));
-            JPanel boutonOk2 = new JPanel();
-            boutonOk2.setLayout(new FlowLayout(FlowLayout.CENTER));
-            fenetreBtn.add(new JLabel(" Vous avez appuyé sur : OK"));
-            fenetreBtn.add(new JLabel(" Nom : " + Nom.getText()));
-            fenetreBtn.add(new JLabel(" pwd : " + Mdp.getText()));
-            MonBouton Okbouton = new MonBouton("OK");
-            Okbouton.addActionListener(e1 -> fenetreBtn.dispose());
-            boutonOk2.add(Okbouton);
-            fenetreBtn.add(boutonOk2);
-            fenetreBtn.setVisible(true);
+            JOptionPane.showMessageDialog(null, "Vous avez appuyé sur : OK\n" + " Nom : " + Nom.getText() + '\n' + " pwd : " + Mdp.getText());
         });
         boutonOk.add(bouton);
 
         JPanel boutonAnnuler = new JPanel();
         boutonAnnuler.setLayout(new FlowLayout(FlowLayout.RIGHT));
         MonBouton bouton2 = new MonBouton("Cancel");
+        bouton2.setBackground(Color.GRAY);
+        bouton2.MouseaddHoverEffect(Color.DARK_GRAY, Color.WHITE);
+        bouton2.setPreferredSize(new Dimension(100, 50));
+        bouton2.setFont(new Font("Arial", Font.PLAIN, 20));
         bouton2.setAlignmentX(CENTER_ALIGNMENT);
         bouton2.addActionListener(e -> {
-            MaFenetre fenetreBtn = new MaFenetre("Message", 250, 150 , new JPanel());
-            fenetreBtn.getContentPane().setLayout(new BoxLayout(fenetreBtn.getContentPane(), BoxLayout.Y_AXIS));
-            JPanel boutoncCancel2 = new JPanel();
-            boutoncCancel2.setLayout(new FlowLayout(FlowLayout.CENTER));
-            fenetreBtn.add(new JLabel(" Vous avez appuyé sur : Cancel"));
-            fenetreBtn.add(new JLabel(" Nom : " + Nom.getText()));
-            fenetreBtn.add(new JLabel(" pwd : " + Mdp.getText()));
-            MonBouton Okbouton = new MonBouton("OK");
-            Okbouton.addActionListener(e1 -> fenetreBtn.dispose());
-            boutoncCancel2.add(Okbouton);
-            fenetreBtn.add(boutoncCancel2);
-            fenetreBtn.setVisible(true);
+            JOptionPane.showMessageDialog(null, "Vous avez appuyé sur : Cancel\n" + " Nom : " + Nom.getText() + '\n' + " pwd : " + Mdp.getText());
         });
         boutonAnnuler.add(bouton2);
 
+        panel.setBorder(BorderFactory.createEmptyBorder(100, 250, 150, 250));
+
+        panel.setBackground(new Color(0,0,0,0));
+        textFields.setBackground(new Color(0,0,0,0));
+        textFields2.setBackground(new Color(0,0,0,0));
+        Boutons.setBackground(new Color(0,0,0,0));
+        boutonOk.setBackground(new Color(0,0,0,0));
+        boutonAnnuler.setBackground(new Color(0,0,0,0));
+
         Boutons.add(boutonOk);
         Boutons.add(boutonAnnuler);
-        ContainerBoutons.add(Boutons);
-        ContainerBoutons.setVisible(true);
+        panel.add(Boutons);
+        panelContainer.add(panel);
+        ContainerBox.add(panelContainer);
     }
 }

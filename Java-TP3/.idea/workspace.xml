@@ -1,27 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0dc07d10-3fb8-41a4-9084-afb564734543" name="Changes" comment="fixup! feat : new menu layout">
+    <list default="true" id="0dc07d10-3fb8-41a4-9084-afb564734543" name="Changes" comment="feat : Menu with exo1, exo2 without bugs">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/Menu$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/Menu$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/Menu$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/Menu$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/Menu$MonLabel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/Menu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-TP3/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/MenuExo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-TP3/MenuExo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/Pexercice1/PClasse/Classe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-TP3/Pexercice1/PClasse/Classe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/Pexercice1/PEtudiant/Etudiant.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-TP3/Pexercice1/PEtudiant/Etudiant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/Pexercice2/MaFenetre.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-TP3/Pexercice2/MaFenetre.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/Pexercice2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-TP3/Pexercice2/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/Pexercice2/MonBouton$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-TP3/Pexercice2/MonBouton$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/Pexercice2/MonBouton.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-TP3/Pexercice2/MonBouton.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/Pexercice3/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-TP3/Pexercice3/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/Pexercice3/PasswordField.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-TP3/Pexercice3/PasswordField.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/Pexercice3/TextField.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-TP3/Pexercice3/TextField.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/Pexercice4/CardGame$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/Pexercice4/CardGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-TP3/Pexercice4/CardGame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/Pexercice5/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-TP3/Pexercice5/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/Pexercice5/MonsterCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-TP3/Pexercice5/MonsterCard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/Pexercice5/SpellCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-TP3/Pexercice5/SpellCard.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/TP_Classe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-TP3/TP_Classe.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Menu.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MenuExo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MenuExo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pexercice1/PClasse/Classe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pexercice1/PClasse/Classe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pexercice2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pexercice2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pexercice2/MonBouton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pexercice2/MonBouton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pexercice3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pexercice3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pexercice4/CardGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pexercice4/CardGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TP_Classe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TP_Classe.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,6 +70,7 @@
     "WebServerToolWindowFactoryState": "false",
     "idea.background.editor": "C:\\Users\\kheir\\OneDrive\\Desktop\\Ynov\\B2\\PHP\\Snapagram\\client\\templates\\img\\catstare.png,0,scale,center,flipH",
     "idea.background.frame": "C:\\Users\\kheir\\OneDrive\\Desktop\\Ynov\\B2\\PHP\\Snapagram\\client\\templates\\img\\catstare.png,0,scale,center",
+    "ignore.preview.features.used": "true",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
@@ -171,7 +174,16 @@
       <workItem from="1672551515404" duration="317000" />
       <workItem from="1672600045531" duration="18896000" />
       <workItem from="1672643824051" duration="4330000" />
+      <workItem from="1673135504040" duration="17607000" />
     </task>
+    <task id="LOCAL-00001" summary="feat : Menu with exo1, exo2 without bugs">
+      <created>1672937591407</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1672937591407</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,15 +224,11 @@
         </entry>
       </map>
     </option>
-    <option name="OPEN_GENERIC_TABS">
-      <map>
-        <entry key="494e0c93-6925-4c9d-b102-b24a41f9e51b" value="TOOL_WINDOW" />
-      </map>
-    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat : new menu layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat : new menu layout" />
+    <MESSAGE value="feat : Menu with exo1, exo2 without bugs" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat : Menu with exo1, exo2 without bugs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -9,6 +9,7 @@ public class TP_Classe {
 
     public static void main(MaFenetre args) {
         Classe classe = new Classe("B2");
+        JPanel ContainerDroite = (JPanel) args.getContentPane().getComponent(1);
 
         Etudiant etudiant1 = new Etudiant("Mederreg", "Kheir", "2022");
         etudiant1.setNote("Mathématiques", "Trimestre 1", 8.5);
@@ -48,8 +49,8 @@ public class TP_Classe {
         label.setFont(new Font("Arial", Font.PLAIN, 20));
 
 
-        JPanel ContainerDroite = (JPanel) args.getContentPane().getComponent(1);
-        ContainerDroite.setLayout(new GridLayout(1, 1));
+
+        ContainerDroite.setLayout(new BorderLayout());
         ContainerDroite.add(labelPanel);
         labelPanel.setLayout(new BorderLayout());
         labelPanel.add(label, BorderLayout.CENTER);
