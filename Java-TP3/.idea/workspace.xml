@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0dc07d10-3fb8-41a4-9084-afb564734543" name="Changes" comment="feat : Menu with exo1, exo2 without bugs">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pexercice5/YuGiOhApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pexercice5/card.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-TP3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java-TP3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-TP3/MenuExo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-TP3/MenuExo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MenuExo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MenuExo.java" afterDir="false" />
-    </list>
+    <list default="true" id="0dc07d10-3fb8-41a4-9084-afb564734543" name="Changes" comment="feat : Menu with exo1, exo2 without bugs" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,6 +39,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -160,7 +156,7 @@
       <workItem from="1672600045531" duration="18896000" />
       <workItem from="1672643824051" duration="4330000" />
       <workItem from="1673135504040" duration="18922000" />
-      <workItem from="1673204610495" duration="5913000" />
+      <workItem from="1673204610495" duration="6219000" />
     </task>
     <task id="LOCAL-00001" summary="feat : Menu with exo1, exo2 without bugs">
       <created>1672937591407</created>
