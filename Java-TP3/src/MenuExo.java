@@ -74,7 +74,7 @@ public class MenuExo {
         MonBouton boutonExo4 = new MonBouton("Afficher carte");
         boutonExo4.setBackground(Color.GRAY);
         boutonExo4.MouseaddHoverEffect(Color.DARK_GRAY, Color.WHITE);
-        MonBouton boutonExo5 = new MonBouton("JTable");
+        MonBouton boutonExo5 = new MonBouton("Monstre Yu-Gi-Oh");
         boutonExo5.setBackground(Color.GRAY);
         boutonExo5.MouseaddHoverEffect(Color.DARK_GRAY, Color.WHITE);
         // Définit la police de chaque bouton comme étant Arial de taille 30
