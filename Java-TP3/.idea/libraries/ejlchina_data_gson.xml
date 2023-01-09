@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="ejlchina.data.gson" type="repository">
+    <properties maven-id="com.ejlchina:data-gson:1.4.1" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/ejlchina/data-gson/1.4.1/data-gson-1.4.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/ejlchina/data-core/1.4.1/data-core-1.4.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.9.0/gson-2.9.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
